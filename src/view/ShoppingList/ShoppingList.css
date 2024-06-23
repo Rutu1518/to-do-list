@@ -1,0 +1,62 @@
+body{
+   
+    font-family: "Shadows Into Light", cursive;   
+  }
+.app-title{
+    text-align: center;
+}
+.todo-list-container{    
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 5px;
+    overflow-y: scroll;
+    background-color: #e9e3e3;
+    /* background-color: rgb(227, 220, 226); */
+    margin-top: 20px;
+    font-size: 25px;
+} 
+.todo-list-container:hover{
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3);
+} 
+.add-input{
+    width: 270px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-right: 20px;
+    background-color: #f4f2f2;
+    font-family: "Shadows Into Light", cursive;   
+}
+.add-icon{
+    height: 50px;
+    cursor: pointer;
+}
+.add-icon:hover{
+    transform: rotate(90deg);
+    transition: 1s;  
+}
+.add-todo-list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+.category-select{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    margin-right: 12px;
+    border: 1px solid black;
+    width: 230px;
+    height: 40px;
+    background-color: #f7f3f3;
+    font-family: "Shadows Into Light", cursive;
+}
+
+
+
