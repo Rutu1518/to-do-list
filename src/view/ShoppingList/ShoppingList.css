@@ -1,5 +1,4 @@
-body{
-   
+body{   
     font-family: "Shadows Into Light", cursive;   
   }
 .app-title{
@@ -13,8 +12,6 @@ body{
     padding: 5px;
     overflow-y: scroll;
     background-color: #e9e3e3;
- 
-    
     margin-top: 20px;
     font-size: 25px;
 } 
