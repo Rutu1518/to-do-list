@@ -10,8 +10,7 @@ function ToDoCard({index,task,category,deleteItem}) {
     work:"🧑‍🏭",
     Shopping:"🛒",
     health:"🧑‍⚕️",
-    others:"🎑"
-  
+    others:"🎑"  
   }
   const CATEGORY_COLOURS ={
     Learning:"blue",
@@ -19,8 +18,7 @@ function ToDoCard({index,task,category,deleteItem}) {
     Shopping:"green",
     Health:"red",
     Others:"gray",
-    Personal:"pink"
-  
+    Personal:"pink"  
   }
   return (
     <div className='todo-card'>
